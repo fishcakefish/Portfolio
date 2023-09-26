@@ -715,6 +715,23 @@ a:focus {
   max-height: 30px;
 }
 
+.info_section .info_top .btn-box .btn-1 {
+  display: inline-block;
+  padding: 10px 0;
+  background-color: #ff4f5a;
+  color: #ffffff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: 1px solid transparent;
+  border-radius: 0;
+}
+
+.info_section .info_top .btn-box .btn-1:hover {
+  background-color: transparent;
+  border-color: #ff4f5a;
+  color: #ff4f5a;
+}
+
 .info_section a {
   text-transform: none;
 }
