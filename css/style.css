@@ -236,6 +236,12 @@ a:focus {
   text-transform: uppercase;
 }
 
+.slider_section .detail-box h3 {
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 .slider_section .detail-box p {
   color: #ffffff;
   margin-top: 15px;
@@ -292,9 +298,12 @@ a:focus {
 }
 
 .slider_section .img-container .img-box img {
-  width: 150px;
-  height: 150px;
+  width: 100%;
+}
+
+.rounded-image {
   border-radius: 50%;
+  display: block;
 }
 
 .slider_section #carouselExampleIndicators {
