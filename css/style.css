@@ -292,7 +292,9 @@ a:focus {
 }
 
 .slider_section .img-container .img-box img {
-  width: 100%;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
 }
 
 .slider_section #carouselExampleIndicators {
